@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { LoginComponent } from './basic/components/login/login.component';
 import { SignupComponent } from './basic/components/signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -19,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule,
+    MatToolbarModule,
     ReactiveFormsModule
   ],
   providers: [
