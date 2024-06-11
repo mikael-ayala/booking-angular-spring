@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 import { LoginComponent } from './basic/components/login/login.component';
 import { SignupComponent } from './basic/components/signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -20,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
+    MatButtonModule,
     ReactiveFormsModule
   ],
   providers: [
