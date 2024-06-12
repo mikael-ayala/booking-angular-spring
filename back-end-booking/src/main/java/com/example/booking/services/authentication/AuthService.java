@@ -4,5 +4,7 @@ import com.example.booking.dto.SignupRequestDTO;
 import com.example.booking.dto.UserDTO;
 
 public interface AuthService {
-    public UserDTO signupClient(SignupRequestDTO signupRequestDTO);
+    UserDTO signupClient(SignupRequestDTO signupRequestDTO);
+
+    Boolean presentByEmail(String email);
 }
