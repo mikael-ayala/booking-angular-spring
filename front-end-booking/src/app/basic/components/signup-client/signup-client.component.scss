@@ -1,0 +1,21 @@
+.bg {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+
+  .form-card {
+    width: 600px;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      button {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
