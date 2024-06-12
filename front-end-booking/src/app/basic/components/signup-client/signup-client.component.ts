@@ -30,10 +30,10 @@ export class SignupClientComponent {
 
     submitForm() {
       this.authService.registerClient(this.validateForm.value).subscribe(res => {
-        this.notification.open('Signup successful');
+        this.notification.open('Signup successful', '', { duration: 3000 });
         this.router.navigateByUrl('/login');
       }, error => {
-        this.notification.open('Error');
+        this.notification.open('Error', '', { duration: 3000 });
       });
     }
 }
